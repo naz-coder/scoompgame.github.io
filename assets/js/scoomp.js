@@ -10,3 +10,11 @@ const scoring = document.getElementById("score");
 
 let shuffledQuestion, currentQuestionIndex;
 let score = 0;
+
+startButton.addEventListener("click", startGame);
+finishButton.addEventListener("click", endGame);
+nextButton.addEventListener("click", () =>
+{
+    currentQuestionIndex++
+    setNextQuestion()
+});
