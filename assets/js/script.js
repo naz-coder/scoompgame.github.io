@@ -65,7 +65,7 @@ const questions = [
             { text: "Jamaica", correct: false },
             { text: "Beijin", correct: true },
             { text: "Berlin", correct: false },
-            { text: "Nigeria", correct: true }
+            { text: "Nigeria", correct: false }
         ]
     },
     {
